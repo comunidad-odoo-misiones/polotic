@@ -1,0 +1,98 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* polo_tic
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-13 22:18+0000\n"
+"PO-Revision-Date: 2019-11-13 19:19-0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_active
+msgid "Active?"
+msgstr "Activo?"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: polo_tic
+#: model:ir.ui.view,arch_db:polo_tic.view_filter_todo_task
+msgid "Done"
+msgstr "Realizado"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_is_done
+msgid "Done?"
+msgstr "Realizado?"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: polo_tic
+#: model:ir.model.fields,field_description:polo_tic.field_todo_task_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: polo_tic
+#: model:ir.ui.view,arch_db:polo_tic.view_filter_todo_task
+msgid "Not Done"
+msgstr "No Realizado"
+
+#. module: polo_tic
+#: model:ir.actions.act_window,name:polo_tic.action_todo_task
+msgid "To-do Task"
+msgstr "Tareas por Realizar"
+
+#. module: polo_tic
+#: model:ir.ui.menu,name:polo_tic.menu_todo_task
+msgid "Todos"
+msgstr "Tareas por Realizar"
+
+#. module: polo_tic
+#: model:ir.model.fields,help:polo_tic.field_todo_task_name
+msgid "What needs to be done?"
+msgstr "Que necesita para realizarse?"
+
+#. module: polo_tic
+#: model:ir.model,name:polo_tic.model_todo_task
+msgid "todo.task"
+msgstr "todo.task"

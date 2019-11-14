@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+      <record model='todo.task' id='todo_task_1'>
+        <field name='name'>Tarea 1</field>
+    </record>
+    <record model='todo.task' id='todo_task_2'>
+        <field name='name'>Tarea 2</field>
+    </record>
+    <record model='todo.task' id='todo_task_3'>
+        <field name='name'>Tarea 3</field>
+    </record>
+    <record model='todo.task' id='todo_task_4'>
+        <field name='name'>Tarea 4</field>
+    </record>
+
+
+    </data>
+</odoo>
