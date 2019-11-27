@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+  		<record model="ir.ui.view" id="slideChannel_view_id_inherits">
+        <field name="name">slide.channel</field>
+        <field name="model">slide.channel</field>
+        <field name="inherit_id" ref="website_slides.view_slide_channel_form"/>
+        <field name="arch" type="xml">
+          <field name="tag_ids" position="before">
+            <field name="teacher_ids" widget='many2many_tags' placeholder='Teachers' />
+          </field>
+        </field>
+      </record>
+
+
+    </data>
+</odoo>
+
+
+

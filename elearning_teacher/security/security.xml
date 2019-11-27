@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="teacher_group" model="res.groups">
+        	<field name="name">Teachers</field>
+        </record>
+
+        <record id="teacher_rule_id" model="ir.rule">
+			<field name="name">Profesor solo ve sus cursos</field>
+			<field name="model_id" ref="website_slides.model_slide_channel"/>
+			<field name="groups" eval="[(4, ref('teacher_group'))]"/>
+			<field name="domain_force">[('teacher_ids','=',user.id)]</field>
+			<field name="perm_create" eval="True"/>
+			<field name="perm_unlink" eval="True"/>
+			<field name="perm_read" eval="True"/>
+			<field name="perm_write" eval="True"/>
+		</record>
+
+    </data>
+</odoo>
+
