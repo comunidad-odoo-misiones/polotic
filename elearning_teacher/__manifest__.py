@@ -6,5 +6,6 @@
     'depends': ['base','website_slides'],
     'application': True,
     'data': ['views/slideChannel_view.xml',
-            'security/security.xml']
+            'security/security.xml',
+            'security/ir.model.access.csv']
 }
