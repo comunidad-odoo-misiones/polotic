@@ -5,5 +5,6 @@
     'author': 'Comunidad Odoo Misiones',
     'depends': ['base','website_slides'],
     'application': True,
-    'data': ['views/stage_menu.xml','views/stage_view.xml']
+    'data': ['views/stage_menu.xml','views/stage_view.xml',
+    		'data/data.xml']
 }

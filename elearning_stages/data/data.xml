@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model='elearning.stage' id='elearning_stage_pending'>
+            <field name='name'>Pending</field>
+            <field name='description'>Pending description</field>
+        </record>
+
+        <record model='elearning.stage' id='elearning_stage_published'>
+            <field name='name'>Published</field>
+            <field name='description'>Published description</field>
+        </record>
+
+        <record model='elearning.stage' id='elearning_stage_in_progress'>
+            <field name='name'>In progress</field>
+            <field name='description'>In progress description</field>
+        </record>
+
+        <record model='elearning.stage' id='elearning_stage_finished'>
+            <field name='name'>Finished</field>
+            <field name='description'>Finished description</field>
+        </record>
+        
+    
+    </data>
+</odoo>
