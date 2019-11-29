@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 	<data>
-<!-- VISTA TREE -->
+        <!-- VISTA TREE -->
 		<record model='ir.ui.view' id='elearning_stage_tree'>
 			<field name='name'>elearning.stage.tree</field>
 			<field name='model'>elearning.stage</field>
