@@ -4,14 +4,14 @@
 
       <!-- Action to open Elearning Stage list -->
       <act_window id="action_elearning_stage"
-        name="elearning.stage"
+        name="Elearning Stage"
         res_model="elearning.stage"
         view_mode="tree,form"
       />
 
       <!-- Menu item to open Elearning Stage list -->
       <menuitem id="menu_elearning_stage"
-        name="Todos"
+        name="Elearning Stage"
         action="action_elearning_stage"
       />
 
