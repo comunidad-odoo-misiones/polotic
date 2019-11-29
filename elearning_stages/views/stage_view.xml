@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+<!-- VISTA TREE -->
         <record model='ir.ui.view' id='elearning_stage_tree'>
             <field name='name'>elearning.stage.tree</field>
             <field name='model'>elearning.stage</field>
@@ -14,6 +15,8 @@
                 </tree>
             </field>
         </record>
+
+        <!--VISTA FORM  -->
         <record id="view_form_elearning_stage" model="ir.ui.view">
             <field name="name">elearning.stage.form</field>
             <field name="model">elearning.stage</field>
@@ -23,6 +26,10 @@
                     <group name="group_top">
                         <group name="group_left">
                             <field name="name" required="True" />
+                            <field name="description" /> 
+                        <!-- <group name="group_right">
+                        <field name="active" readonly="1" />
+                        </group> -->
                         <!--<field name="is_done" />-->
                         </group>
                     </group>
@@ -31,7 +38,7 @@
             </field>
         </record>
 
-    <!-- To-Do Task Search view -->
+        <!-- BUSCADOR -->
         <record id="view_filter_elearning_stage" model="ir.ui.view">
             <field name="name">Elearning Stage Filter</field>
             <field name="model">elearning.stage</field>
