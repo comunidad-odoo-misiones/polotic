@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model='ir.ui.view' id='elearning_stage_tree'>
+            <field name='name'>elearning.stage.tree</field>
+            <field name='model'>elearning.stage</field>
+            <field name='type'>tree</field>
+            <field name='arch' type='xml'>
+                <tree>
+                    <field name="name" />
+                    <field name="description" />
+                    <!--<field name="is_done" />
+                    <field name="active" />-->
+                </tree>
+            </field>
+        </record>
+        <record id="view_form_elearning_stage" model="ir.ui.view">
+            <field name="name">elearning.stage.form</field>
+            <field name="model">elearning.stage</field>
+            <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group name="group_top">
+                        <group name="group_left">
+                            <field name="name" required="True" />
+                        <!--<field name="is_done" />-->
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+            </field>
+        </record>
+
+    <!-- To-Do Task Search view -->
+        <record id="view_filter_elearning_stage" model="ir.ui.view">
+            <field name="name">Elearning Stage Filter</field>
+            <field name="model">elearning.stage</field>
+            <field name="arch" type="xml">
+            <search string="Estados">
+                <field name="description"></field>
+                <filter name="filter_stage" domain="[('elearning_stage','=', 'True')]"/>
+            </search>
+            </field>
+        </record>
+    </data>
+</odoo>

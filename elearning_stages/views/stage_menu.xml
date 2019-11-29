@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+      <!-- Action to open Elearning Stage list -->
+      <act_window id="action_elearning_stage"
+        name="elearning.stage"
+        res_model="elearning.stage"
+        view_mode="tree,form"
+      />
+
+      <!-- Menu item to open Elearning Stage list -->
+      <menuitem id="menu_elearning_stage"
+        name="Todos"
+        action="action_elearning_stage"
+      />
+
+
+
+
+
+    </data>
+</odoo>
+
+
