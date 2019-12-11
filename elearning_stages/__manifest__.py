@@ -6,5 +6,5 @@
     'depends': ['base','website_slides'],
     'application': True,
     'data': ['views/stage_menu.xml','views/stage_view.xml',
-    		'data/data.xml']
+    		'data/data.xml','security/ir.model.access.csv']
 }
