@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+        <record model="ir.ui.view" id="slideChannel_view_id_inherits_stage">
+            <field name="name">slide.channel</field>
+            <field name="model">slide.channel</field>
+            <field name="inherit_id" ref="website_slides.view_slide_channel_form"/>
+            <field name="arch" type="xml">
+            <xpath expr='//button[@name="action_channel_invite"]' position="after">
+                <field name="stage_id" widget="statusbar"/>
+            </xpath>
+            </field>
+      </record>
+    </data>
+</odoo>
