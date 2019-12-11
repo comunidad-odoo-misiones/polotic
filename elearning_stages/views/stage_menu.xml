@@ -2,13 +2,6 @@
 <odoo>
     <data>
 
-      <!-- Menu item to open Elearning Stage list -->
-      <menuitem id="menu_elearning_stage"
-        name="Elearning Stage"
-        action="action_elearning_stage"
-      />
-
-      
       <!-- Action to open Elearning Stage list -->
       <act_window id="action_elearning_stage"
         name="Elearning Stage"
@@ -16,9 +9,12 @@
         view_mode="tree,form"
       />
 
-      
-
-
+      <!-- Menu item to open Elearning Stage list -->
+      <menuitem id="menu_elearning_stage"
+        name="Elearning Stage"
+        action="action_elearning_stage"
+        parent="website_slides.website_slides_menu_root"
+      />
 
 
 
